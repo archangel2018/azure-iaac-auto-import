@@ -19,3 +19,7 @@ config:
       variables:
         destination: ($ project $)/pipeline/variables-($ environment $).yml
         path: pipeline/default/variables.sample.yaml
+    terraform:
+      azure-iaac-re-poc:
+        destination: ($ project $)/terraform/($ environment $)/azure-iaac-re-poc.tf
+        path: terraform/default/azure-iaac-re-poc.tf.sample

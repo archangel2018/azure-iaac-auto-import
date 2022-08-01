@@ -1,0 +1,32 @@
+module "azure-iaac-re-poc" {
+  # azurerm_virtual_network__subscriptions_97d20ca8_3e22_470f_8d26_e3c1fd97ca6e_resourcegroups_terraform_rgp_providers_microsoft_network_virtualnetworks_vnet_south_india_address_space         = ["10.0.0.0/16"]
+  # azurerm_virtual_network__subscriptions_97d20ca8_3e22_470f_8d26_e3c1fd97ca6e_resourcegroups_terraform_rgp_providers_microsoft_network_virtualnetworks_vnet_south_india_location              = "southindia"
+  # azurerm_virtual_network__subscriptions_97d20ca8_3e22_470f_8d26_e3c1fd97ca6e_resourcegroups_terraform_rgp_providers_microsoft_network_virtualnetworks_vnet_south_india_name                  = "vnet-south-india"
+  # azurerm_virtual_network__subscriptions_97d20ca8_3e22_470f_8d26_e3c1fd97ca6e_resourcegroups_terraform_rgp_providers_microsoft_network_virtualnetworks_vnet_south_india_resource_group_name   = "terraform-rgp"
+  # azurerm_virtual_network__subscriptions_97d20ca8_3e22_470f_8d26_e3c1fd97ca6e_resourcegroups_terraform_rgp_providers_microsoft_network_virtualnetworks_vnet_south_india_subnet_address_prefix = "10.0.2.0/24"
+  # azurerm_virtual_network__subscriptions_97d20ca8_3e22_470f_8d26_e3c1fd97ca6e_resourcegroups_terraform_rgp_providers_microsoft_network_virtualnetworks_vnet_south_india_subnet_name           = "subnet-south-2"
+  source = "./module-azure-iaac-re-poc"
+}
+
+
+terraform {
+  required_providers {
+    azurerm = {
+      source = "hashicorp/azurerm"
+    }
+
+  }
+
+  required_version = ">= 1.0"
+}
+
+
+# Cycloid
+variable "organization" {}
+variable "customer" {}
+variable "project" {}
+variable "env" {}
+	
+provider "azurerm" {
+	features {}
+}

@@ -1,0 +1,24 @@
+variable "azurerm_virtual_network__subscriptions_97d20ca8_3e22_470f_8d26_e3c1fd97ca6e_resourcegroups_terraform_rgp_providers_microsoft_network_virtualnetworks_vnet_south_india_address_space" {
+  default = ["10.0.0.0/16"]
+}
+
+variable "azurerm_virtual_network__subscriptions_97d20ca8_3e22_470f_8d26_e3c1fd97ca6e_resourcegroups_terraform_rgp_providers_microsoft_network_virtualnetworks_vnet_south_india_location" {
+  default = "southindia"
+}
+
+variable "azurerm_virtual_network__subscriptions_97d20ca8_3e22_470f_8d26_e3c1fd97ca6e_resourcegroups_terraform_rgp_providers_microsoft_network_virtualnetworks_vnet_south_india_name" {
+  default = "vnet-south-india"
+}
+
+variable "azurerm_virtual_network__subscriptions_97d20ca8_3e22_470f_8d26_e3c1fd97ca6e_resourcegroups_terraform_rgp_providers_microsoft_network_virtualnetworks_vnet_south_india_resource_group_name" {
+  default = "terraform-rgp"
+}
+
+variable "azurerm_virtual_network__subscriptions_97d20ca8_3e22_470f_8d26_e3c1fd97ca6e_resourcegroups_terraform_rgp_providers_microsoft_network_virtualnetworks_vnet_south_india_subnet_address_prefix" {
+  default = "10.0.2.0/24"
+}
+
+variable "azurerm_virtual_network__subscriptions_97d20ca8_3e22_470f_8d26_e3c1fd97ca6e_resourcegroups_terraform_rgp_providers_microsoft_network_virtualnetworks_vnet_south_india_subnet_name" {
+  default = "subnet-south-2"
+}
+
