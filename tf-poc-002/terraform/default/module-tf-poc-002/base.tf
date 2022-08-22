@@ -1,5 +1,0 @@
-resource "azurerm_resource_group" "_subscriptions_97d20ca8_3e22_470f_8d26_e3c1fd97ca6e_resourcegroups_terraform" {
-  location = var.azurerm_resource_group__subscriptions_97d20ca8_3e22_470f_8d26_e3c1fd97ca6e_resourcegroups_terraform_location
-  name     = var.azurerm_resource_group__subscriptions_97d20ca8_3e22_470f_8d26_e3c1fd97ca6e_resourcegroups_terraform_name
-}
-

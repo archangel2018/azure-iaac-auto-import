@@ -1,7 +1,0 @@
-module "tf-poc-002" {
-  azurerm_resource_group__subscriptions_97d20ca8_3e22_470f_8d26_e3c1fd97ca6e_resourcegroups_terraform_location    = "eastus"
-  azurerm_resource_group__subscriptions_97d20ca8_3e22_470f_8d26_e3c1fd97ca6e_resourcegroups_terraform_name        = "terraform"
-  azurerm_resource_group__subscriptions_97d20ca8_3e22_470f_8d26_e3c1fd97ca6e_resourcegroups_terraform_tc_category = "base"
-  source                                                                                                          = "./module-tf-poc-002"
-}
-
