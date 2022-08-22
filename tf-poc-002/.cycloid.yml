@@ -1,0 +1,21 @@
+version: "2"
+name: tf-poc-002
+canonical: tf-poc-002
+author: archangel2018
+status: private
+description: tf-poc-002
+image: ""
+keywords:
+- tf-poc-002
+- provider:azure
+technologies: []
+dependencies: []
+config:
+  default:
+    name: default
+    pipeline:
+      pipeline:
+        path: pipeline/default/terraform-pipeline.yaml
+      variables:
+        destination: ($ project $)/pipeline/variables-($ environment $).yml
+        path: pipeline/default/variables.sample.yaml
